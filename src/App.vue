@@ -1,7 +1,8 @@
 <script setup>
 import { ref } from 'vue';
 import BadgeComponent from '../src/components/BadgeComponent.vue'
-
+import BreadCrumb from '../src/components/BreadCrumb.vue'
+import ButtonComponent from '../src/components/ButtonComponent.vue'
 const show = ref(false);
 
 </script>
@@ -74,6 +75,8 @@ const show = ref(false);
 <h2>kk</h2>
 
 <BadgeComponent></BadgeComponent>
+<BreadCrumb></BreadCrumb>
+<ButtonComponent></ButtonComponent>
 
 
 </div>

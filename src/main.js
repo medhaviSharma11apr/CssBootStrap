@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 
 // Import BootstrapVueNext components
-import { BButton, BModal, BAccordion, BAccordionItem, BAlert, BAvatar, BListGroup, BListGroupItem, BBadge, } from 'bootstrap-vue-next';
+import { BButton, BModal, BAccordion, BAccordionItem, BAlert, BAvatar, BListGroup, BListGroupItem, BBadge, BBreadcrumb, BBreadcrumbItem} from 'bootstrap-vue-next';
 
 // Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.css';
@@ -20,6 +20,8 @@ app.component('BBadge', BBadge);
 app.component('BListGroup', BListGroup);
 app.component('BListGroupItem', BListGroupItem);
 app.component('BAccordionItem', BAccordionItem);
+app.component('BBreadcrumb', BBreadcrumb);
+app.component('BBreadcrumbItem', BBreadcrumbItem);
 
 
 app.mount('#app');
