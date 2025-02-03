@@ -5,12 +5,12 @@
 
 <template>
 <BButton  @click="showAlert =!showAlert" class="custom-button mx-4">Show Primary Alert </BButton>
-<BAlert :model-value="showAlert" variant="primary">Primary Alert</BAlert>
+<BAlert :model-value="showAlert" variant="primary" class="mx-4">Primary Alert</BAlert>
 
 
 <BButton  @click="showAlert1 =!showAlert1" class="custom-button">Show Success Message  </BButton>
 
-<BAlert :model-value="showAlert1" variant="success" >
+<BAlert :model-value="showAlert1" variant="success" class="mx-4" >
   <h4 class="alert-heading">Well done!</h4>
   <p>
     Aww yeah, you successfully read this important alert message. This example text is going to

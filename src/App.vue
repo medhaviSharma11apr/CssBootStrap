@@ -1,12 +1,14 @@
 <script setup>
 import { ref } from 'vue';
 import AlertComponent from '../src/components/AlertComponent.vue'
+import AvatarCircular from '../src/components/AvatarCircular.vue'
 
 const show = ref(false);
 // const showAlert = ref(false);
 </script>
 
 <template>
+  <div class="main_container mx-4">
   <BButton variant="primary" @click="show = !show" class="">Click me</BButton>
   <BModal v-model="show">Test</BModal>
    <!-- Correct Accordion Simple Usage -->
@@ -72,6 +74,11 @@ const show = ref(false);
 <hr>
 <h2>kk</h2>
 <AlertComponent></AlertComponent>
+
+<AvatarCircular></AvatarCircular>
+
+
+</div>
 
 
 </template>
