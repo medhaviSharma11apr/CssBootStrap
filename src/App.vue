@@ -1,10 +1,9 @@
 <script setup>
 import { ref } from 'vue';
-import AlertComponent from '../src/components/AlertComponent.vue'
-import AvatarCircular from '../src/components/AvatarCircular.vue'
+import BadgeComponent from '../src/components/BadgeComponent.vue'
 
 const show = ref(false);
-// const showAlert = ref(false);
+
 </script>
 
 <template>
@@ -73,9 +72,8 @@ const show = ref(false);
 </BAccordion>
 <hr>
 <h2>kk</h2>
-<AlertComponent></AlertComponent>
 
-<AvatarCircular></AvatarCircular>
+<BadgeComponent></BadgeComponent>
 
 
 </div>
