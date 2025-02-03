@@ -1,8 +1,16 @@
 <script setup>
-// import { BButton } from 'bootstrap-vue-next/dist/bootstrap-vue-next.umd';
+  import {ref} from 'vue';
 
+  let showButton = ref(false);
 
-
+//   let toggleButton = ()=>{
+//     console.log('clicked',   showButton.value)
+//     showButton.value= !showButton.value;
+//   }
+  const toggleButton = () => {
+  console.log('clicked', showButton.value);
+  showButton.value = !showButton.value;
+};
 
 </script>
 
@@ -36,5 +44,14 @@ export default {
         <BButton variant="outline-info">Info</BButton>
         <BButton variant="outline-light">Light</BButton>
         <BButton variant="outline-dark">Dark</BButton>
+    <hr>
+        <!-- // Loading Button -->
+        
+  <BButton  @click="toggleButton" :loading="showButton">Click Me</BButton>
+  <!-- <BButton v-if="showButton" :loading="true" @click="toggleButton">Loading...</BButton> -->
+
+
+
+        <hr>
     </div>
 </template>

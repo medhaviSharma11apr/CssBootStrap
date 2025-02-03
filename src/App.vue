@@ -1,8 +1,9 @@
 <script setup>
 import { ref } from 'vue';
-import BadgeComponent from '../src/components/BadgeComponent.vue'
-import BreadCrumb from '../src/components/BreadCrumb.vue'
-import ButtonComponent from '../src/components/ButtonComponent.vue'
+// import BadgeComponent from '../src/components/BadgeComponent.vue'
+// import BreadCrumb from '../src/components/BreadCrumb.vue'
+// import ButtonComponent from '../src/components/ButtonComponent.vue'
+import ButtonGroups from '../src/components/ButtonGroup.vue'
 const show = ref(false);
 
 </script>
@@ -74,9 +75,11 @@ const show = ref(false);
 <hr>
 <h2>kk</h2>
 
-<BadgeComponent></BadgeComponent>
+<!-- <BadgeComponent></BadgeComponent>
 <BreadCrumb></BreadCrumb>
-<ButtonComponent></ButtonComponent>
+<ButtonComponent></ButtonComponent> -->
+
+<ButtonGroups></ButtonGroups>
 
 
 </div>
