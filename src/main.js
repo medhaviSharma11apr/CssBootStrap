@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 
 // Import BootstrapVueNext components
-import { BButton,BCol,BImg, BModal,BRow,BContainer, BFormInput,BFormDatalist,BFormInvalidFeedback,BFormFloatingLabel, BFormSelect,BFormCheckboxGroup,BFormCheckbox, BAccordion,BFormGroup, BAccordionItem, BAlert, BAvatar, BListGroup, BListGroupItem, BBadge, BBreadcrumb, BBreadcrumbItem, BCard, BCarousel, BCarouselSlide, BDropdown, BDropdownItem, BForm, } from 'bootstrap-vue-next';
+import { BButton,BCol,BNavItem,BOffcanvas, BNav,BLink,BImg, BModal,BRow,BContainer, BFormInput,BFormDatalist,BFormInvalidFeedback,BFormFloatingLabel, BFormSelect,BFormCheckboxGroup,BFormCheckbox, BAccordion,BFormGroup, BAccordionItem, BAlert, BAvatar, BListGroup, BListGroupItem, BBadge, BBreadcrumb, BBreadcrumbItem, BCard, BCarousel, BCarouselSlide, BDropdown, BDropdownItem, BForm, } from 'bootstrap-vue-next';
 
 // Import Bootstrap CSS
 
@@ -41,9 +41,13 @@ app.component('BContainer', BContainer);
 app.component('BRow', BRow);
 app.component('BCol', BCol) ;
 app.component('BImg', BImg) ;
+app.component('BLink', BLink) ;
+app.component('BNav', BNav) ;
+app.component('BNavItem', BNavItem) ;
+app.component('BOffcanvas', BOffcanvas) ;
 
 
-// BImg
+// BOffcanvas
 
 
 

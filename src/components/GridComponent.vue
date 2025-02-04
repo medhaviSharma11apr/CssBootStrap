@@ -1,27 +1,24 @@
 <template>
     <div>
-        <BImg src="https://picsum.photos/1024/400/?image=41" fluid alt="Responsive image" />
-        <h5>Small image with <code>fluid</code>:</h5>
-        <BImg src="https://picsum.photos/300/150/?image=41" fluid alt="Fluid image" />
-        <h5 class="my-3">Small image with <code>fluid-grow</code>:</h5>
-        <BImg src="https://picsum.photos/300/150/?image=41" fluid-grow alt="Fluid-grow image" />
-
-        <BContainer fluid class="p-4 bg-dark">
-            <BRow>
-                <BCol>
-                    <BImg thumbnail fluid src="https://picsum.photos/250/250/?image=54" alt="Image 1" />
-                </BCol>
-                <BCol>
-                    <BImg thumbnail fluid src="https://picsum.photos/250/250/?image=58" alt="Image 2" />
-                </BCol>
-                <BCol>
-                    <BImg thumbnail fluid src="https://picsum.photos/250/250/?image=59" alt="Image 3" />
-                </BCol>
-            </BRow>
-        </BContainer>
+        <BLink href="https://www.google.com" target="_blank" rel="noopener">Click me</BLink>
 
 
-<div class="d-flex gap-2 mt-4">
+        <p v-for="color in [
+            'primary',
+            'secondary',
+            'success',
+            'danger',
+            'warning',
+            'info',
+            'light',
+            'dark',
+        ]" :key="color">
+            <BLink :variant="color"> {{ color }} link </BLink>
+        </p>
+
+
+    </div>
+    <!-- <div class="d-flex gap-2 mt-4">
     <BImg v-bind="mainProps" alt="Rounded image" src="https://picsum.photos/250/250/?image=54" />
     <BImg v-bind="mainProps" rounded alt="Rounded image" src="https://picsum.photos/250/250/?image=58" />
     <BImg v-bind="mainProps" rounded-top alt="Top-rounded image" src="https://picsum.photos/250/250/?image=59" />
@@ -30,8 +27,7 @@
     <BImg v-bind="mainProps" rounded-start alt="Left-rounded image" src="https://picsum.photos/250/250/?image=54" />
     <BImg v-bind="mainProps" rounded="circle" alt="Circle image" src="https://picsum.photos/250/250/?image=55"/>
     <BImg v-bind="mainProps" rounded="0" alt="Not rounded image" src="https://picsum.photos/250/250/?image=50" />
-  </div>
-    </div>
+  </div> -->
     <!-- <div class=" gutter-x bg-danger" tag="neww" >
         <BContainer class="bv-example-row ">
             <BRow>
@@ -71,6 +67,8 @@
 </template>
 
 <script>
+// import { BLink } from 'bootstrap-vue-next/dist/bootstrap-vue-next.umd';
+
 
 export default {
     name: "GridComponent"
