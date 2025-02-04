@@ -5,8 +5,8 @@
 // import FormComponent from '../src/components/FormComponent.vue'
 // import GridComponent  from '../src/components/GridComponent.vue'
 // import ListGroupComponent  from '../src/components/ListGroupComponent.vue'
-// /Users/medhavi/Desktop/Vue/vuebootstrap/
-import  ShowOffComponent from '../src/components/ShowOffCanavas.vue'
+// /Users/medhavi
+import  PaginationComponent from '../src/components/PaginationComponent.vue'
 
 
 </script>
@@ -22,7 +22,8 @@ import  ShowOffComponent from '../src/components/ShowOffCanavas.vue'
  <!-- <GridComponent></GridComponent> -->
 
  <!-- <BmodalComponent></BmodalComponent> -->
-  <ShowOffComponent></ShowOffComponent>
+  <!-- <ShowOffComponent></ShowOffComponent> -->
+   <PaginationComponent></PaginationComponent>
 
 </div>
 
