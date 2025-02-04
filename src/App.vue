@@ -1,8 +1,9 @@
 <script setup>
 // import CardComponent from '../src/components/CardComponent.vue'
 // import CarouselComponent from '../src/components/CarouselComponent.vue'
-import DropdownComponent from '../src/components/DropDown.vue'
-import FormComponent from '../src/components/FormComponent.vue'
+// import DropdownComponent from '../src/components/DropDown.vue'
+// import FormComponent from '../src/components/FormComponent.vue'
+import GridComponent  from '../src/components/GridComponent.vue'
 
 
 </script>
@@ -12,8 +13,9 @@ import FormComponent from '../src/components/FormComponent.vue'
 <!-- 
 <CardComponent> </CardComponent>
 <CarouselComponent></CarouselComponent> -->
-<DropdownComponent></DropdownComponent>
-<FormComponent></FormComponent>
+<!-- <DropdownComponent></DropdownComponent> -->
+<!-- <FormComponent></FormComponent> -->
+ <GridComponent></GridComponent>
 
 </div>
 

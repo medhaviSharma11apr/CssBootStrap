@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 
 // Import BootstrapVueNext components
-import { BButton, BModal,BFormInput,BFormDatalist,BFormInvalidFeedback,BFormFloatingLabel, BFormSelect,BFormCheckboxGroup,BFormCheckbox, BAccordion,BFormGroup, BAccordionItem, BAlert, BAvatar, BListGroup, BListGroupItem, BBadge, BBreadcrumb, BBreadcrumbItem, BCard, BCarousel, BCarouselSlide, BDropdown, BDropdownItem, BForm, } from 'bootstrap-vue-next';
+import { BButton,BCol, BModal,BRow,BContainer, BFormInput,BFormDatalist,BFormInvalidFeedback,BFormFloatingLabel, BFormSelect,BFormCheckboxGroup,BFormCheckbox, BAccordion,BFormGroup, BAccordionItem, BAlert, BAvatar, BListGroup, BListGroupItem, BBadge, BBreadcrumb, BBreadcrumbItem, BCard, BCarousel, BCarouselSlide, BDropdown, BDropdownItem, BForm, } from 'bootstrap-vue-next';
 
 // Import Bootstrap CSS
 import 'bootstrap/dist/css/bootstrap.css';
@@ -27,15 +27,19 @@ app.component('BCarousel', BCarousel);
 app.component('BCarouselSlide', BCarouselSlide);
 app.component('BDropdown', BDropdown);
 app.component('BDropdownItem', BDropdownItem);
-app.component('BForm', BForm)
-app.component('BFormGroup', BFormGroup)
-app.component('BFormInput', BFormInput)
-app.component('BFormCheckboxGroup', BFormCheckboxGroup)
-app.component('BFormCheckbox', BFormCheckbox)
+app.component('BForm', BForm);
+app.component('BFormGroup', BFormGroup);
+app.component('BFormInput', BFormInput);
+app.component('BFormCheckboxGroup', BFormCheckboxGroup);
+app.component('BFormCheckbox', BFormCheckbox);
 app.component('BFormSelect', BFormSelect)
 app.component('BFormFloatingLabel', BFormFloatingLabel)
 app.component('BFormInvalidFeedback', BFormInvalidFeedback)
-app.component('BFormDatalist', BFormDatalist)
+app.component('BFormDatalist', BFormDatalist);
+app.component('BContainer', BContainer)
+app.component('BRow', BRow)
+app.component('BCol', BCol)
+
 
 
 app.mount('#app');
